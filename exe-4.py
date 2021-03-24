@@ -13,15 +13,14 @@
 # 3. Print a message such as:
 #      - A triangle with sides of <a>, <b> & <c> is a <type of triangle> triangle
 
-# print('Enter the lengths of three side of a triangle:')
-# a = int(input('a: '))
-# b = int(input('b: '))
-# c = int(input('c: '))
+print('Enter the lengths of three side of a triangle:')
+a = int(input('a: '))
+b = int(input('b: '))
+c = int(input('c: '))
 
-# if a == b and b == c:
-#   print(f'A triangle with sides of {a}, {b} & {c} is an equalateral triangle')
-# elif a != b and a != c and b != c:
-#   print(f'A triangle with sides of {a}, {b} & {c} is a scalene triangle')
-# else:
-#   print(f'A triangle with sides of {a}, {b} & {c} is an isosceles triangle')
-
+if a == b and b == c:
+ print(f'A triangle with sides of {a}, {b} & {c} is an equalateral triangle')
+elif a != b and a != c and b != c:
+ print(f'A triangle with sides of {a}, {b} & {c} is a scalene triangle')
+else:
+    print(f'A triangle with sides of {a}, {b} & {c} is an isosceles triangle')
